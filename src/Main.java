@@ -8,7 +8,7 @@ public class Main
         GiftSkill gs = new GiftSkill("Gift", "Mercy", 5);
         TalentSkill ts = new TalentSkill("Talent", "Organization", 10);
 
-        //Using the instances to call on the identifySkill method in the Skill Class
+        //Using the instances to call on the identifySkill method in the Children Skill Classes
         hs.identifySkill();
         ss.identifySkill();
         gs.identifySkill();

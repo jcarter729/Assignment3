@@ -28,6 +28,6 @@ abstract class Skill
         return skillLevel;
     }
 
-    //Method that outputs the name, type, and skill level of the skill classes that extend this class
+    //Abstract Method that is both overriden by the extended classes, and can identify name, type, and skill level
     public abstract void identifySkill();
 }

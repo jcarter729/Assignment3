@@ -6,6 +6,7 @@ public class GiftSkill extends Skill
         super(name, type, skillLevel);
     }
     
+    //Override abstract method in Skill to print out the identifiers of the gift skill to the terminal
     @Override
     public void identifySkill()
     {
